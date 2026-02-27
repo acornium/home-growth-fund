@@ -20,7 +20,7 @@ const Index = () => {
         </div>
         <div className="relative z-10 text-center max-w-3xl animate-fade-in">
           <img
-            src="/logo-smart-group.png"
+            src={`${import.meta.env.BASE_URL}logo-smart-group.png`}
             alt="Логотип Группа Смарт"
             className="h-24 mx-auto mb-8 brightness-0 invert"
           />

@@ -9,7 +9,7 @@ const Stationery = () => {
       <div className="grid gap-6 md:grid-cols-2 mb-16">
         {/* Front */}
         <div className="aspect-[1.75/1] rounded-lg bg-primary text-primary-foreground flex flex-col justify-between p-6 shadow-lg">
-          <img src="/logo-smart-group.png" alt="Logo" className="h-8 object-contain object-left brightness-0 invert" />
+          <img src={`${import.meta.env.BASE_URL}logo-smart-group.png`} alt="Logo" className="h-8 object-contain object-left brightness-0 invert" />
           <div>
             <p className="font-display font-semibold text-sm">Иванов Иван Иванович</p>
             <p className="text-xs opacity-70 mt-0.5">Директор по инвестициям</p>
@@ -31,7 +31,7 @@ const Stationery = () => {
       <h2 className="text-2xl font-display font-semibold mb-4">Фирменный бланк</h2>
       <div className="aspect-[1/1.414] max-w-md rounded-lg border border-border bg-white p-8 mb-16 shadow-lg">
         <div className="flex items-center justify-between mb-12 pb-4 border-b border-border">
-          <img src="/logo-smart-group.png" alt="Logo" className="h-6 object-contain" />
+          <img src={`${import.meta.env.BASE_URL}logo-smart-group.png`} alt="Logo" className="h-6 object-contain" />
           <div className="text-[8px] text-muted-foreground text-right space-y-0.5">
             <p>ООО «Группа Смарт»</p>
             <p>ИНН 7701234567</p>
@@ -53,7 +53,7 @@ const Stationery = () => {
       {/* Envelope */}
       <h2 className="text-2xl font-display font-semibold mb-4">Конверт</h2>
       <div className="aspect-[2.2/1] max-w-lg rounded-lg border border-border bg-white p-6 mb-16 shadow-lg flex flex-col justify-between">
-        <img src="/logo-smart-group.png" alt="Logo" className="h-5 object-contain object-left" />
+        <img src={`${import.meta.env.BASE_URL}logo-smart-group.png`} alt="Logo" className="h-5 object-contain object-left" />
         <div className="self-end text-right space-y-0.5">
           <div className="h-1.5 bg-muted rounded w-32 ml-auto" />
           <div className="h-1.5 bg-muted rounded w-40 ml-auto" />
@@ -70,7 +70,7 @@ const Stationery = () => {
             <p className="font-display font-semibold text-sm text-foreground">Иванов Иван</p>
             <p className="text-xs text-muted-foreground">Директор по инвестициям</p>
             <p className="text-xs text-muted-foreground mt-2">+7 (495) 123-45-67 · ivanov@gruppa-smart.ru</p>
-            <img src="/logo-smart-group.png" alt="Logo" className="h-4 object-contain object-left mt-3" />
+            <img src={`${import.meta.env.BASE_URL}logo-smart-group.png`} alt="Logo" className="h-4 object-contain object-left mt-3" />
           </div>
         </div>
       </div>
@@ -78,7 +78,7 @@ const Stationery = () => {
       {/* Presentation slide */}
       <h2 className="text-2xl font-display font-semibold mb-4">Обложка презентации</h2>
       <div className="aspect-video max-w-2xl rounded-lg bg-primary text-primary-foreground flex flex-col items-center justify-center p-12 shadow-lg">
-        <img src="/logo-smart-group.png" alt="Logo" className="h-12 object-contain brightness-0 invert mb-6" />
+        <img src={`${import.meta.env.BASE_URL}logo-smart-group.png`} alt="Logo" className="h-12 object-contain brightness-0 invert mb-6" />
         <h3 className="text-2xl md:text-3xl font-display font-bold text-center">Группа Смарт</h3>
         <p className="text-sm opacity-60 mt-2 tracking-wider uppercase">Инвестиции в недвижимость</p>
       </div>
